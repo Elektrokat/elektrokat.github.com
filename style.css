@@ -1,0 +1,47 @@
+body{
+    margin: 10px;
+    background-color: hsl(217, 28%, 15%);
+    color: hsl(0, 0%, 100%);
+}
+
+div{
+    float: left;
+    line-height: 10px;
+}
+
+.one{
+    width: 100%; height: auto;
+}
+
+.two{
+    margin: 125px 60px 0px 60px;
+}
+
+.three{
+    font-family: 'Raleway', sans-serif;
+    font-size: x-large;
+    font-weight: 1000;
+    text-decoration: solid;
+}
+
+section{
+    font-family: 'Open Sans', sans-serif;
+    font-size: small;
+    font-weight: 700;
+}
+
+.four{
+    color: hsl(0, 0%, 100%);
+}
+
+.five{
+    background-color: hsl(0, 0%, 100%);
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 375px) {
+body, div, section{
+    width: 100%; height: auto;
+}
+}
